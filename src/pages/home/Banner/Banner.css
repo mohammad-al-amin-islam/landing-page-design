@@ -1,0 +1,24 @@
+.bg-img{
+    background-image: url(../../../assets/Rectangle\ 16.png);
+    background-repeat: no-repeat;
+    background-position: 25% 100%;
+    background-size: 200px;
+}
+.bg-img2{
+    background-image: url(../../../assets/Rectangle\ 60.png);
+    background-repeat: no-repeat;
+    background-position: 20% 0%;
+    background-size: 200px;
+}
+.bg-img3{
+    background-image: url(../../../assets/Rectangle\ 61.png);
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 200px;
+}
+.bg-img4{
+    background-image: url(../../../assets/Rectangle\ 62.png);
+    background-repeat: no-repeat;
+    background-position: 45% 100%;
+    background-size: 200px;
+}

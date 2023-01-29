@@ -4,7 +4,7 @@ import avator from "../../../assets/Ellipse 7.png";
 import "./Feedback.css";
 const FeedbackArea = () => {
   return (
-    <div>
+    <div className="mb-10">
       <div className="carousel w-full">
         <div
           id="slide1"

@@ -5,6 +5,7 @@ import AchievementArea from "./AchivementArea/AchievementArea";
 import Banner from "./Banner/Banner";
 import ConsultantArea from "./ConsultantArea/ConsultantArea";
 import DoctorSchedule from "./DoctorSchedule/DoctorSchedule";
+import FeedbackArea from "./FeedbackArea/FeedbackArea";
 import ServiceArea from "./ServiceArea/ServiceArea";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <DoctorSchedule></DoctorSchedule>
       <ServiceArea></ServiceArea>
       <AchievementArea></AchievementArea>
+      <FeedbackArea></FeedbackArea>
     </div>
   );
 };

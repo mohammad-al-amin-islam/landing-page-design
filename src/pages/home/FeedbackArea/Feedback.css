@@ -1,0 +1,7 @@
+.bg-img-feedback{
+    background-image: url(../../../assets/Rectangle\ 40.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(97, 67, 206);
+}

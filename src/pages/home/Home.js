@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../shared/Footer/Footer";
 import Navbar from "../shared/Navbar/Navbar";
 import AchievementArea from "./AchivementArea/AchievementArea";
 import Banner from "./Banner/Banner";
@@ -21,6 +22,7 @@ const Home = () => {
       <FeedbackArea></FeedbackArea>
       <Event></Event>
       <SubscribeArea></SubscribeArea>
+      <Footer></Footer>
     </div>
   );
 };

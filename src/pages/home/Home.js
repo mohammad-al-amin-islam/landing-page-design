@@ -1,6 +1,7 @@
 import React from "react";
 import ServiceCard from "../../components/reuseable/ServiceCard/ServiceCard";
 import Navbar from "../shared/Navbar/Navbar";
+import AchievementArea from "./AchivementArea/AchievementArea";
 import Banner from "./Banner/Banner";
 import ConsultantArea from "./ConsultantArea/ConsultantArea";
 import DoctorSchedule from "./DoctorSchedule/DoctorSchedule";
@@ -14,6 +15,7 @@ const Home = () => {
       <ConsultantArea></ConsultantArea>
       <DoctorSchedule></DoctorSchedule>
       <ServiceArea></ServiceArea>
+      <AchievementArea></AchievementArea>
     </div>
   );
 };

@@ -1,0 +1,7 @@
+.bg-img-achievement{
+    background-image: url(../../../assets/Rectangle\ 34.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(97, 67, 206);
+}

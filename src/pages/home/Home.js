@@ -7,6 +7,7 @@ import DoctorSchedule from "./DoctorSchedule/DoctorSchedule";
 import Event from "./Event/Event";
 import FeedbackArea from "./FeedbackArea/FeedbackArea";
 import ServiceArea from "./ServiceArea/ServiceArea";
+import SubscribeArea from "./SubscribeArea/SubscribeArea";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <AchievementArea></AchievementArea>
       <FeedbackArea></FeedbackArea>
       <Event></Event>
+      <SubscribeArea></SubscribeArea>
     </div>
   );
 };

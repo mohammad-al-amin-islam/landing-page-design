@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "img": "https://raw.githubusercontent.com/mohammad-al-amin-islam/landing-page-design/main/src/assets/Rectangle%2026.png",
+    "text": "Orthopedic Clinic"
+  },
+  {
+    "id": 1,
+    "img": "img1",
+    "text": "Cardiac Surgery"
+  },
+  {
+    "id": 1,
+    "img": "img1",
+    "text": "Cancer Screening"
+  },
+  {
+    "id": 1,
+    "img": "img1",
+    "text": "Neurology"
+  },
+  {
+    "id": 1,
+    "img": "img1",
+    "text": "Pediatric & Adult Audiology"
+  },
+  {
+    "id": 1,
+    "img": "img1",
+    "text": "Neurology"
+  },
+  {
+    "id": 1,
+    "img": "img1",
+    "text": "Hearing Tests & Aids"
+  },
+  {
+    "id": 1,
+    "img": "img1",
+    "text": "Orthopedic Clinic"
+  }
+]

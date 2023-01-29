@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../../../components/reuseable/Button/Button";
 import ServiceCard from "../../../components/reuseable/ServiceCard/ServiceCard";
-
+import img from "../../../assets/Rectangle 26.png";
 const ServiceArea = () => {
+  const [service, setService] = useState([]);
+  useEffect(() => {
+    fetch("service.json")
+      .then((res) => res.json())
+      .then((data) => setService(data));
+  }, []);
   return (
     <div className="my-10 container mx-auto">
       <div className="text-center mb-10">
@@ -10,14 +16,17 @@ const ServiceArea = () => {
         <p>Service we Provide</p>
       </div>
       <div className="grid grid-cols-4 gap-10 mb-5">
+        {/* <ServiceCard img={img} para={"Orthopedic Clinic"}></ServiceCard>
         <ServiceCard></ServiceCard>
         <ServiceCard></ServiceCard>
         <ServiceCard></ServiceCard>
         <ServiceCard></ServiceCard>
         <ServiceCard></ServiceCard>
         <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard>
+        <ServiceCard></ServiceCard> */}
+        {service.map((ser) => (
+          <ServiceCard img={ser.img} para={ser.text}></ServiceCard>
+        ))}
       </div>
       <div className="w-80 mx-auto">
         <Button>LOAD MORE DEPARTMENTS</Button>

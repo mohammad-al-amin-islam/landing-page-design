@@ -6,6 +6,7 @@ import Banner from "./Banner/Banner";
 import ConsultantArea from "./ConsultantArea/ConsultantArea";
 import DoctorSchedule from "./DoctorSchedule/DoctorSchedule";
 import Event from "./Event/Event";
+import Expert from "./Expert/Expert";
 import FeedbackArea from "./FeedbackArea/FeedbackArea";
 import ServiceArea from "./ServiceArea/ServiceArea";
 import SubscribeArea from "./SubscribeArea/SubscribeArea";
@@ -23,6 +24,7 @@ const Home = () => {
       <Event></Event>
       <SubscribeArea></SubscribeArea>
       <Footer></Footer>
+      <Expert></Expert>
     </div>
   );
 };

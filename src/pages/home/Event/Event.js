@@ -21,7 +21,7 @@ const Event = () => {
       <EventCard img={img1}></EventCard>
 
       <div className="mb-5">
-        <div className="grid grid-cols-2 gap-6 items-center ite bg-base-100  border ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center ite bg-base-100  border ">
           <div className="p-5">
             <div>
               <h2 className="text-2xl font-bold mb-2">

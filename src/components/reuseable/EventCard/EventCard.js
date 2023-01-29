@@ -7,7 +7,7 @@ import icon3 from "../../../assets/eventicons/location.png";
 const EventCard = ({ img }) => {
   return (
     <div className="mb-5">
-      <div className="grid grid-cols-2 items-center ite bg-base-100 border ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center ite bg-base-100 border ">
         <div>
           <img src={img} alt="" />
         </div>

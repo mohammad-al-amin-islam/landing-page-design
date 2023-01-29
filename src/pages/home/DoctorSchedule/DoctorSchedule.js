@@ -3,7 +3,7 @@ import d3 from "../../../assets/d3.png";
 import "./DoctorSchedule.css";
 const DoctorSchedule = () => {
   return (
-    <div className="grid grid-cols-2 justify-items-center items-center container mx-auto mt-32">
+    <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center container mx-auto mt-32 gap-20">
       <div>
         <h1 className="text-3xl font-bold mb-10">Doctor's Schedule Today</h1>
         <div className="flex border-b-2 py-3 my-3">

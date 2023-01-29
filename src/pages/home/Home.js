@@ -24,7 +24,6 @@ const Home = () => {
       <Event></Event>
       <SubscribeArea></SubscribeArea>
       <Footer></Footer>
-      <Expert></Expert>
     </div>
   );
 };

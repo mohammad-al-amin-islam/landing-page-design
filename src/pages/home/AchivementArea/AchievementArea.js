@@ -7,7 +7,7 @@ import "./AchievementArea.css";
 const AchievementArea = () => {
   return (
     <div className="bg-img-achievement py-10 mb-10">
-      <div className=" container mx-auto grid grid-cols-4">
+      <div className=" container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center">
         <div className="my-7 text-center w-52">
           <div className="flex justify-center mt-1  p-3">
             <img className="w-20" src={icon1} alt="" />

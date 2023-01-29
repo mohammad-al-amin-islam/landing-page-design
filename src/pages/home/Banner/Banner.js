@@ -9,7 +9,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className="mt-5">
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex">
           <div>
             <div className="mr-7">

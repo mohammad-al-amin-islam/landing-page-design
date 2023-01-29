@@ -5,7 +5,7 @@ import "./ConsultanArea.css";
 
 const ConsultantArea = () => {
   return (
-    <div className="grid grid-cols-2 justify-items-center items-center mt-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center mt-8">
       <div className="w-96 ">
         <div className="bg-img-consultant">
           <img className="w-72 m-auto" src={dr} alt="" />

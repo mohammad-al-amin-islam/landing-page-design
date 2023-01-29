@@ -13,17 +13,9 @@ const ServiceArea = () => {
     <div className="my-10 container mx-auto">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold mb-5">Our Medical Care</h1>
-        <p>Service we Provide</p>
+        <p className="font-semibold">Service we Provide</p>
       </div>
-      <div className="grid grid-cols-4 gap-10 mb-5">
-        {/* <ServiceCard img={img} para={"Orthopedic Clinic"}></ServiceCard>
-        <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard>
-        <ServiceCard></ServiceCard> */}
+      <div className="grid grid-cols-1 md:gird-cols-2 lg:grid-cols-4 gap-10 mb-5 justify-items-center">
         {service.map((ser) => (
           <ServiceCard img={ser.img} para={ser.text}></ServiceCard>
         ))}

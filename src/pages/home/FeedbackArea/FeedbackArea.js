@@ -15,7 +15,7 @@ const FeedbackArea = () => {
               Patient FeedBack
             </h1>
 
-            <div className="grid grid-cols-2 justify-items-center items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center">
               <img src={avator} alt="" />
               <div>
                 <p className="text-white mb-8">
